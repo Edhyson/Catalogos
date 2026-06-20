@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: catalogo-service
+  datasource:
+    url: jdbc:postgresql://localhost:5432/catalogo_db
+    username: catalogo_user
+    password: catalogo_pass
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
